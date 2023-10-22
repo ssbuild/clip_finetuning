@@ -87,4 +87,4 @@ img   must
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ssbuild/llm_finetuning&type=Date)](https://star-history.com/#ssbuild/llm_finetuning&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ssbuild/clip_finetuning&type=Date)](https://star-history.com/#ssbuild/clip_finetuning&Date)
