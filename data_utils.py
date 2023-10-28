@@ -153,7 +153,6 @@ class NN_DataHelper(DataHelper):
         o = {}
         for i, b in enumerate(batch):
             image_path = b.pop("image_path")
-            image_path = image_path[ 0 ]
             if isinstance(image_path, bytes):
                 image_path = str(image_path, encoding='utf-8')
             image = Image.open(image_path)
@@ -181,7 +180,7 @@ class NN_DataHelper(DataHelper):
         schema = {
             "input_ids": "int32_list",
             "attention_mask": "int32_list",
-            "image_path": "binary_list",
+            "image_path": "binary",
             "seqlen": "int32_list",
         }
         # 缓存数据集
